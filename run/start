@@ -1,0 +1,13 @@
+#!/bin/sh
+
+export IP=$(hostname -I)
+
+# docker-compose up php httpd mysql bind mailhog
+# docker-compose up php httpd mysql bind mailhog ngrok
+docker-compose up php httpd mssql bind mailhog ngrok
+
+# docker-compose up php httpd sqlserver bind mailhog
+
+
+# for magento 2 use the following command
+# docker-compose up php httpd mysql bind mailhog elastic logstash kibana

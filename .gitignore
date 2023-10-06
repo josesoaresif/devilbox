@@ -91,7 +91,7 @@
 /cfg/php-ini-7.3/*.ini
 /cfg/php-ini-7.4/*.ini
 /cfg/php-ini-8.0/*.ini
-/cfg/php-ini-8.1/*.ini
+# /cfg/php-ini-8.1/*.ini
 /cfg/php-ini-8.2/*.ini
 
 # Ignore custom PHP-FPM configs
@@ -110,7 +110,7 @@
 /cfg/php-fpm-8.2/*.conf
 
 # Ignore custom PHP-FPM startup scripts
-/autostart/*.sh
+# /autostart/*.sh
 /cfg/php-startup-5.2/*.sh
 /cfg/php-startup-5.3/*.sh
 /cfg/php-startup-5.4/*.sh

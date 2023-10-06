@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Stop all container
+docker-compose stop
+# Remove stopped container (important!)
+docker-compose rm -f
+# Start all container
+docker-compose up php httpd mysql bind mailhog
